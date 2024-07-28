@@ -80,7 +80,7 @@ Follow these steps to set up the project environment:
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/yourusername/quantum-image-processing.git
+   git clone https://github.com/Souvik-Pramanik/Quantum-Image-Processing.git
    cd quantum-image-processing
    ```
 
@@ -171,7 +171,7 @@ This project successfully integrates quantum and classical image processing tech
 
 ## Contributors
 
-- [Your Name](https://github.com/yourusername)
+- [Your Name](https://github.com/Souvik-Pramanik)
 
 ## License
 
