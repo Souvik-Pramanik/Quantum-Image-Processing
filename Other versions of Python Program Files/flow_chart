@@ -1,0 +1,49 @@
+digraph G {
+	Start [label=Start]
+	LoadImage [label="Load Image"]
+	Preprocessing [label=Preprocessing]
+	ConvertToGrayscale [label="Convert to Grayscale"]
+	ResizeImage [label="Resize Image"]
+	BinarizeImage [label="Binarize Image"]
+	QuantumDilation [label="Quantum Dilation"]
+	EncodeToQuantum [label="Encode to Quantum State"]
+	ApplyQuantumDilation [label="Apply Quantum Dilation"]
+	MeasureQuantumState [label="Measure Quantum State"]
+	ClassicalErosion [label="Classical Erosion"]
+	ApplyErosion [label="Apply Erosion using OpenCV"]
+	ImageSharpening [label="Image Sharpening"]
+	ApplySharpening [label="Apply Sharpening Filter"]
+	ImageRestoration [label="Image Restoration"]
+	ApplyRestoration [label="Apply Restoration Techniques"]
+	Visualization [label=Visualization]
+	DisplayOriginal [label="Display Original Image"]
+	DisplayDilated [label="Display Dilated Image"]
+	DisplayEroded [label="Display Eroded Image"]
+	DisplaySharpened [label="Display Sharpened Image"]
+	DisplayRestored [label="Display Restored Image"]
+	SaveOutput [label="Save Output Image"]
+	End [label=End]
+	Start -> LoadImage
+	LoadImage -> Preprocessing
+	Preprocessing -> ConvertToGrayscale
+	ConvertToGrayscale -> ResizeImage
+	ResizeImage -> BinarizeImage
+	BinarizeImage -> QuantumDilation
+	QuantumDilation -> EncodeToQuantum
+	EncodeToQuantum -> ApplyQuantumDilation
+	ApplyQuantumDilation -> MeasureQuantumState
+	MeasureQuantumState -> ClassicalErosion
+	ClassicalErosion -> ApplyErosion
+	ApplyErosion -> ImageSharpening
+	ImageSharpening -> ApplySharpening
+	ApplySharpening -> ImageRestoration
+	ImageRestoration -> ApplyRestoration
+	ApplyRestoration -> Visualization
+	Visualization -> DisplayOriginal
+	DisplayOriginal -> DisplayDilated
+	DisplayDilated -> DisplayEroded
+	DisplayEroded -> DisplaySharpened
+	DisplaySharpened -> DisplayRestored
+	DisplayRestored -> SaveOutput
+	SaveOutput -> End
+}
