@@ -41,7 +41,7 @@ Quantum image processing (QIP) is a burgeoning field that combines quantum compu
 
 The project architecture comprises four main stages: Classical Preprocessing, Quantum Encoding, Quantum Operation, and Classical Decoding. Below is a detailed flowchart of the process:
 
-![Architectural Flow-Chart](Circuit_Diagram\Flow-Chart.png)
+![Architectural Flow-Chart](Circuit_Diagram/Flow-Chart.png)
 
 ### Algorithm
 
@@ -133,7 +133,7 @@ Follow these steps to set up the project environment:
 
 ### Quantum Circuit Diagram
 
-![Architectural Diagram](Circuit_Diagram\quantum_circuit.png)
+![Architectural Diagram](Circuit_Diagram/quantum_circuit.png)
 
 ### Screenshots
 
