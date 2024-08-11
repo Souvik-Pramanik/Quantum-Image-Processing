@@ -171,7 +171,7 @@ This project successfully integrates quantum and classical image processing tech
 
 ## Contributors
 
-- [Your Name](https://github.com/Souvik-Pramanik)
+- [Souvik Pramanik](https://github.com/Souvik-Pramanik)
 
 ## License
 
